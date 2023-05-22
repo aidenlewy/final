@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Current Basketball</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<script>
+		window.onload = function() {
+			var name = prompt("Please enter your name:");
+			if (name != null) {
+				document.getElementById("username").innerHTML = "Welcome, " + name + "!";
+			}
+		}
+	</script>
+</head>
+<body>
+	<nav>
+		<a href="70s.html">70s</a>
+		<a href="80s.html">80s</a>
+		<a href="90s.html">90s</a>
+		<a href="2000s.html">2000s</a>
+        <a href="current.html">Current</a>
+        <span id="username" class="right"></span>
+	</nav>
+
+	<header>
+		<h1>Current Basketball</h1>
+	</header>
+
+	<section>
+		<h2>Top Players in the NBA Today</h2>
+		<ul>
+			<li>LeBron James</li>
+			<li>Stephen Curry</li>
+			<li>Kevin Durant</li>
+			<li>Giannis Antetokounmpo</li>
+			<li>Luka Doncic</li>
+		</ul>
+        <iframe width="455" height="809" src="https://www.youtube.com/embed/IrKn-IS_mug" title="May 16, 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</section>
+
+	<footer>
+		<p>&copy; 2023 Aiden Final Web</p>
+	</footer>
+</body>
+</html>
